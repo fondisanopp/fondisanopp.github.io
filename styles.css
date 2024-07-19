@@ -1,0 +1,87 @@
+body {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url('pexels-suzyhazelwood-2537930.jpg'); /* Replace 'background.jpg' with your actual image file name */
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: justify;
+}
+
+main section {
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Background color for sections */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main section h2 {
+    font-weight: bold;
+    text-align: left;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between the videos as needed */
+}
+
+.video-item {
+    flex: 1 1 250px; /* Adjust the width as needed */
+    list-style: none; /* Remove the list-style from the li */
+}
+
+.video-item li {
+    margin-bottom: 10px; /* Adjust the margin between the text and video */
+}
